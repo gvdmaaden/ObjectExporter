@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Xml;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using EnvDTE;
 
 namespace ObjectExporter.Test
 {
@@ -8,8 +10,9 @@ namespace ObjectExporter.Test
     public class XmlTests
     {
         [TestMethod]
-        public void XmlConverter()
+        public void CSharpConverter()
         {
+            Mock<Expression> expressionMock = new Mock<Expression>();
 
         }
     }
